@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+  <!-- hover, active state -->
+   <button class="bg-black text-white py-3 px-5 rounded-lg m3">Submit</button>
+   <button class="bg-black hover:bg-green-500 text-white hover:text-white py-3 px-5 rounded-lg m3">Submit</button>
+   <button class="bg-black hover:bg-green-500 text-white hover:text-white py-3 px-5 rounded-lg m3">Submit</button>
+  <!-- styling based on parent state -->
+   <a href="" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+    <h3 class="group-hover:text-white">Card Title</h3>
+    <p class="group-hover:text-white">This is some card text</p>
+   </a>
+  <!-- pseudo classes -->
+   <ul>
+    <li class="first:bg-red-300 odd:bg-red-600 even:bg-blue-500">Item 1</li>
+    <li class="first:bg-red-300 odd:bg-red-600 even:bg-blue-500">Item 2</li>
+    <li class="first:bg-red-300 odd:bg-red-600 even:bg-blue-500">Item 3</li>
+    <li class="first:bg-red-300 odd:bg-red-600 even:bg-blue-500">Item 4</li>
+    <li class="first:bg-red-300 odd:bg-red-600 even:bg-blue-500">Item 5</li>
+    <li class="first:bg-red-300 odd:bg-red-600 even:bg-blue-500">Item 6</li>
+   </ul>
+   <!-- cursor -->
+   <button class="bg-black cursor-help hover:bg-green-500 text-white hover:text-white py-3 px-5 rounded-lg m3">Submit</button>
+</body>
+</html>

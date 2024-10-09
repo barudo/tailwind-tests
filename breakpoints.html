@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-black sm:bg-green-800 md:bg-blue-800">
+  <!-- mobile first 
+    start with mobile
+    use md as usual breakpoint 
+  -->
+  <h1 class="text-white text-4xl"></h1>
+  <script>
+    function showBrowserWidth() {
+      const width = window.innerWidth;
+      document.querySelector('h1').innerText = `Width: ${width}`;
+    }
+    window.onload = showBrowserWidth
+    window.onresize = showBrowserWidth
+  </script>
+</body>
+</html>
+<!-- breakpoints
+ sm 640px
+ md 768px
+ lg 1024px
+ xl 1280px
+ xxl-->
